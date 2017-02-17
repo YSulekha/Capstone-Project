@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_9313cab67dc1da02202999d708f1bc8efb3ca732.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="910c013c511f752c4bbe24c5f492f669f4a3ccc0">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-9.8.0_030c73bcd9f4d9b45d22e0e5533a4d8aec0b0e25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-9.8.0_f071fcc6613dd0afa7b9ab14ddb24192fa4fae8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0b8e087da59c0b062c33f49a335e59f907086da2">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-9.8.0_522dccfb65426242db86d6b748319d02b9410738.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.8.0_141520b6b1372fa348a23e935f182e7cec12a829.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.8.0_3e4fcd878b26a9233c769ceb2ef25b52c8ae2a20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_52a98029963f825cba6d6989521937b77eecc884.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.8.0_b6ca58e19c3e263268839f258a6a9489b5feb113.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.8.0_e2d8d60bfe196cd9b10f6a8fb51ae96753ed6327.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c81df6bd515398ebe45089b0b16c55752a131f6a">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-9.8.0_2529dfc6e8354ccb7285ae322a3da48ddc5fbd01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-9.8.0_ae629b4c33be0e41a796e6eb9c6d0cd7aaaf097f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.8.0_17c2da48ebed062a11c3836ff9b223aceae347f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.8.0_fd3d0c60930d3852652cfaebdee4d821e2dd3982.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.8.0_a4f828b742c0b359c017c268f89c6ae48a918a6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="679251204de40ace98776a6f4e3a649c27e3d89f">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-places-9.8.0_c7202ce2363cf9f650dd19d4a41c9d79959e9502.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="20a3c4e355150c15c13dd58045d43ad0c717d916">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-9.8.0_9ada4f43535ba7d4b4988e06fe9c8640a6f1475e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_99772a77c8c2a22bb4a4683e3f0289935b903e67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2537b11ae24b42172d34e2a613fc0b903c56158">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-awareness-9.8.0_dc0e5b3e1d20f140a3dd889af1a2fa1f4f9019d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d3035050a075484cbf2e33f1ce1f779bae4d451">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-9.8.0_614526c3f746c4fefd0459e837ae98a78eaaff84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.8.0_bc7d5c414d27262d70cd16c6707932ad4d4ba939.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.8.0_42df7650978a600bcb2676796fcdff24d3aec823.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-9.8.0_ba466b6966452f7a99e33101aaf1f3da789dcdfe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-9.8.0_67989e2ddf3814234ca4e3bb403da9f564ba6c28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.github.clans/fab/1.6.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c3b9743fe8bb166a90a7e98b9b9f1f8021d80cd">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.github.clans-fab-1.6.4_aa24695797f2cd4711835c400d8610aec6041747.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.8.0_d314f235aafe867d36c45a7410e8628e92de0903.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.8.0_25ec8a180dd27dce73d3645c02d7a026d0a6718b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.8.0_6a1758766f9f62979a15fc0200ad22b44db55e40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_d51a04e6b2711a381bf0126430e42c71cf95c808.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d358528c5a8731a6e19bca910cbb3fd755ee31">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-instantapps-9.8.0_9341d10a03c0445748e973fc20582ed795636643.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_44b49ebefb133d9a5fd568709db79137fb795b29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e56f31b23ddb067f95f01255295167db7c798612">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-9.8.0_aaed2925aefcf23c1e7391ff9a041762e2c40760.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="266570862e5792ef3c51143a8b8593cf54fac68d">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-api-9.8.0_b4bf27dbbf73a9846fda4bfb5af5927ef32b4ab2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_26560027e3180e15612a411f253edbc0b1f093ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_6d2035d8675f2c11ba133171cadc4dce1465b20b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-9.8.0_04cc93f0aaa33ad505c49c6a85c98e604c82b1a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb3885c40e431cd2b0dc69c0cab2bf6d5da7b43">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-9.8.0_792acb542ae46cfb9ea63e5829ae3b485a8f9d44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a30aea7df545072ad3c06f56b2efc13e67222140">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-9.8.0_7b032713ae3e71a48c8a0158750b48f95675d651.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.8.0_cc142b842f25fa747cb3e5b0af8a3894e1abf53a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_dd810f9dc008671e39b4e5ac88a36244056c5d40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a972970c8beddb69c198f61f3fc55f0606a7dfe3">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-9.8.0_beaa314483426c8f8195cc0e4af6367347df89db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_f0e12fb7f3d332d68d653a94476c0f3188667e9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_ad8e32e7bbef5c0b2b49434c0c1d5fb0a33cf42c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_77b72a35e7beebc0b44b8f9d8943c7b8868e305d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a7a04d6b7c01e569a285fa627cf64f5b05295906">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-9.8.0_c0701507d78c268df609129ce29ba33672b9ff03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-24.0.0_f93e8c4008fb55fcf885365e978aef12dfd081a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-9.8.0_0587a1bb0c34f3d45687df5eb9fc8f55b86ba006.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-9.8.0_345d13041b1d212ad40d087c6e34eb6148ffe61d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0b53c4b90654b67ee3892a8e2e7b819c083ab7a6">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-9.8.0_286d7c3dcfd0ea3aea14a93661564aa0b5ccc0fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="289cad663c288ce965463cb9ece8b35cc7de0fac">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-9.8.0_52c3d4f4131108b2f38e3fefa55b9bbd13aa1e26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-common-9.8.0_d6b02fcf0c0cdb0b5bc6234c7cfc78b0c72ed212.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.8.0_c676419016fb782e21a0265c5e33b5c0bfe80384.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_1f8caccaa960e8dab1af4dd7a581bdf656b2a41a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-24.0.0_62bb816ae7746a45b1252c425eb4399f42c946b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_d0e470a47a8f54428f75f876ed24f2e280193dab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_75e7770e945ae634bb6af8be9f01796894f9522a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.8.0_a28edacc4b13cb52bc3809ac75425b04a3d2ce32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-impl-9.8.0_d475c87abe76a3cea1fbb744fb82d4f35624efe3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="74ac7cbcf0de4a88e59612dc3a9e3f9e71acb4ca">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-9.8.0_8334fc70a8934fa6b1f8bcba3f7ef3ffbaab6516.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.8.0_9d15fc453b2b753037945a28cdfea4ae6e394b14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_ee04e0f6ba517711f6f5092fae56d587784d6d0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.8.0_be39019bf2bae93265b89cf53523e1d16c3ce34a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.8.0_41ae7b55188ca288637d72dfd569e325b049bf89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_70bcde48d9d9702eea41ce0fab6a006fb6c99f7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_cf8e40b62b33274641611a5adbd3441d839e9dc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="055eed08c9cff50cac0db69c74c4d9ff7aef3d84">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-framework-9.8.0_41f6dec41db83b69a5bf3b9fd3eb53f0db2765ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_a07efa85aa2de20c80e3798e19d7803fb1c18722.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3daa7a9c9009fd386872a84c177a76979bdcafd6">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-9.8.0_ef259f1bcc229afc0769f47d028acd7bcc0af628.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/capstone-stage2/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_81cecc9f0ccaca6b7e6801ee612fa8f6779427d0.jar" />
+    </item>
+
+</items>
