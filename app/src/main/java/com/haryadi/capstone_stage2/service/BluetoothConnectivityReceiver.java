@@ -8,8 +8,10 @@ import android.content.Intent;
 
 //Broadcast receiver to receive change in bluetooth settings
 public class BluetoothConnectivityReceiver extends BroadcastReceiver {
+
     @Override
     public void onReceive(Context context, Intent intent) {
+
         String action = intent.getAction();
         if (BluetoothAdapter.ACTION_STATE_CHANGED.equals(action)) {
             final int state = intent.getIntExtra(BluetoothAdapter.EXTRA_STATE,
