@@ -39,6 +39,7 @@ import butterknife.ButterKnife;
 
 
 //Fragment to display map
+
 public class MapFragment extends Fragment implements
         OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks,
@@ -47,6 +48,7 @@ public class MapFragment extends Fragment implements
 
     @BindView(R.id.mapView) MapView mMapView;
     @BindView(R.id.coord)  CoordinatorLayout layout;
+    @BindView(R.id.toolbarText) EditText search;
     private GoogleMap map;
     GoogleApiClient mGoogleApiClient;
 
@@ -56,8 +58,6 @@ public class MapFragment extends Fragment implements
     private static final int MY_PERMISSIONS_REQUEST_LOCATION = 1;
     public static final String SAVE_MAP_STATE = "mapview";
     public static final String SAVE_MARKER = "marker";
-
-
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -77,8 +77,6 @@ public class MapFragment extends Fragment implements
                 addApi(LocationServices.API).
                 build();
 
-        EditText search = (EditText) rootView.findViewById(R.id.toolbarText);
-
         return rootView;
     }
 
@@ -90,7 +88,6 @@ public class MapFragment extends Fragment implements
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        Log.v("InsideOnActivityCreted", "hhh");
         if(savedInstanceState==null) {
             mMapView.onCreate(null);
             mMapView.getMapAsync(this);
@@ -165,13 +162,6 @@ public class MapFragment extends Fragment implements
         map = googleMap;
         map.getUiSettings().setMyLocationButtonEnabled(true);
         if (ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
             map.setMyLocationEnabled(true);
         }
         map.setPadding(5, 480, 5, 5);
@@ -234,15 +224,10 @@ public class MapFragment extends Fragment implements
                 // If request is cancelled, the result arrays are empty.
                 if (grantResults.length > 0
                         && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-
                     if (ActivityCompat.checkSelfPermission(getActivity(), android.Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-                        //  Log.v("Connected_else", mLastLocation.getLatitude() + mLastLocation.getProvider());
                         mLastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
                         if (mLastLocation != null) {
                             LatLng latLng = new LatLng(mLastLocation.getLatitude(), mLastLocation.getLongitude());
-                            //  map.addMarker(new MarkerOptions().position(latLng).title("CurrentLocation"));
-                            //    CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLng(latLng);
-                            //  map.animateCamera(cameraUpdate);
                             map.moveCamera(CameraUpdateFactory.newLatLngZoom(
                                     latLng, 12));
                         }
