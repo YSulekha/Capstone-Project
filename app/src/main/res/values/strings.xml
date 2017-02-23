@@ -4,4 +4,19 @@
 
     <string name="hint_search_text">Where\'d you like to go?</string>
     <string name="trigger_loc_hint">Add a location name</string>
+
+
+    <string name="trigger_name">Trigger Name</string>
+    <string name="trigger_settings">Trigger Settings</string>
+    <string name="trigger_bluetooth">Bluetooth Settings</string>
+    <string name="trigger_wifi">Wifi Settings</string>
+    <string name="trigger_media_volume">Media Volume Settings</string>
+    <string name="trigger_ring_volume">Ring Volume Settings</string>
+    <string name="trigger_save">SAVE</string>
+
+    <string name="settings_connect">onConnect</string>
+    <string name="settings_disconnect">onDisconnect</string>
+    <string name="settings_enter">onEnter</string>
+    <string name="settings_exit">onExit</string>
+
 </resources>
