@@ -54,7 +54,12 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyA_MxgX4LJ5x2An4Xa3ZYzmGjXcHB6rsDo" />
+            android:value="api_key" />
+
+        <provider
+            android:name=".data.TriggerProvider"
+            android:authorities="com.haryadi.trigger"
+            android:exported="false" />
 
     </application>
 

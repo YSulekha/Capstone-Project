@@ -4,10 +4,12 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothManager;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.media.AudioManager;
 import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
+import android.preference.PreferenceManager;
 import android.util.Log;
 
 import java.util.ArrayList;
@@ -80,5 +82,18 @@ public class ChangeSettings {
             }
         }
         return blueToothNames;
+    }
+
+    public static void addWifiNameToSharedPreference(Context context){
+        WifiManager wifiManager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
+        WifiInfo wifiInfo = wifiManager.getConnectionInfo();
+        String name = wifiInfo.getSSID();
+        if(!name.equals("<unknown ssid>")){
+            Log.v("ChangeSe",name);
+            SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+            SharedPreferences.Editor edit = prefs.edit();
+          //  edit.putString(GeofenceTrasitionService.SHARED_LAST_WIFI, name);
+            edit.commit();
+        }
     }
 }

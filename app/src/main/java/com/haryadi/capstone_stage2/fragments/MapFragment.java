@@ -11,12 +11,16 @@ import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.Toast;
 
+import com.github.clans.fab.FloatingActionButton;
+import com.github.clans.fab.FloatingActionMenu;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
@@ -49,6 +53,11 @@ public class MapFragment extends Fragment implements
     @BindView(R.id.mapView) MapView mMapView;
     @BindView(R.id.coord)  CoordinatorLayout layout;
     @BindView(R.id.toolbarText) EditText search;
+
+    @BindView(R.id.wifi_enable) FloatingActionButton wifiEnable;
+    @BindView(R.id.bluetooth_enable) FloatingActionButton bluetoothEnable;
+    @BindView(R.id.location_enable) FloatingActionButton locationEnable;
+    @BindView(R.id.floatingActionMenu) FloatingActionMenu floatingActionMenu;
     private GoogleMap map;
     GoogleApiClient mGoogleApiClient;
 
@@ -77,8 +86,50 @@ public class MapFragment extends Fragment implements
                 addApi(LocationServices.API).
                 build();
 
+        floatingActionMenu.setClosedOnTouchOutside(true);
+        wifiEnable.setOnClickListener(getOnClick(floatingActionMenu));
+        bluetoothEnable.setOnClickListener(getOnClick(floatingActionMenu));
+        locationEnable.setOnClickListener(getOnClick(floatingActionMenu));
+
         return rootView;
     }
+
+    public View.OnClickListener getOnClick(final FloatingActionMenu fm) {
+        FloatingActionButton b;
+        return new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                if (v.getId() == R.id.wifi_enable) {
+                    fm.close(true);
+                    showWifiEditDialog("WIFI");
+                   // checkIfWifiEnabled(getActivity());
+                } else if (v.getId() == R.id.bluetooth_enable) {
+                    fm.close(true);
+                    showBluetoothEditDialog("BLUETOOTH");
+                    //checkIfBluetoothEnabled(getActivity());
+
+                } else if (v.getId() == R.id.location_enable) {
+                    Toast t = Toast.makeText(getActivity(), getString(R.string.location_msg), Toast.LENGTH_SHORT);
+                    t.show();
+                    fm.close(true);
+                }
+            }
+        };
+    }
+
+    private void showWifiEditDialog(String title) {
+        FragmentManager fm = getActivity().getSupportFragmentManager();
+        CreateWifiFragment editNameDialogFragment =  CreateWifiFragment.newInstance(title, false, null);
+        editNameDialogFragment.show(fm, title);
+    }
+
+    private void showBluetoothEditDialog(String title) {
+        FragmentManager fm = getActivity().getSupportFragmentManager();
+        CreateBluetoothFragment editNameDialogFragment =  CreateBluetoothFragment.newInstance(title, false, null);
+        editNameDialogFragment.show(fm, title);
+    }
+
 
     @Override
     public void onConnectionSuspended(int i) {
