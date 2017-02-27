@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -54,6 +55,7 @@ public class CreateProfileFragment extends DialogFragment {
     @BindView(R.id.dialog_radio_disconnect)
     RadioButton radioDisConnect;
     @BindView(R.id.name)ImageButton imageButton;
+    @BindView(R.id.location_wifi_name)EditText locationName;
     String triggerPoint;
     ArrayList<String> names;
     ArrayAdapter<CharSequence> optionsAdapter;

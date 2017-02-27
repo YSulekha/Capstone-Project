@@ -1,6 +1,7 @@
 package com.haryadi.capstone_stage2.fragments;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.location.Location;
@@ -22,8 +23,13 @@ import android.widget.Toast;
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
 import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
+import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.location.places.Place;
+import com.google.android.gms.location.places.ui.PlaceAutocomplete;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
@@ -40,6 +46,9 @@ import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+
+import static android.app.Activity.RESULT_CANCELED;
+import static android.app.Activity.RESULT_OK;
 
 
 //Fragment to display map
@@ -62,11 +71,13 @@ public class MapFragment extends Fragment implements
     GoogleApiClient mGoogleApiClient;
 
     Location mLastLocation;
+    LatLng searchPlace;
 
     ArrayList<MarkerOptions> markers = new ArrayList<>();
     private static final int MY_PERMISSIONS_REQUEST_LOCATION = 1;
     public static final String SAVE_MAP_STATE = "mapview";
     public static final String SAVE_MARKER = "marker";
+    public static final int PLACE_AUTOCOMPLETE_REQUEST_CODE = 1;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -86,12 +97,34 @@ public class MapFragment extends Fragment implements
                 addApi(LocationServices.API).
                 build();
 
+        EditText search = (EditText) rootView.findViewById(R.id.toolbarText);
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onClickOfSearchIcon();
+            }
+        });
+
         floatingActionMenu.setClosedOnTouchOutside(true);
         wifiEnable.setOnClickListener(getOnClick(floatingActionMenu));
         bluetoothEnable.setOnClickListener(getOnClick(floatingActionMenu));
         locationEnable.setOnClickListener(getOnClick(floatingActionMenu));
 
         return rootView;
+    }
+
+    //searching location
+    public void onClickOfSearchIcon() {
+        try {
+            Intent intent =
+                    new PlaceAutocomplete.IntentBuilder(PlaceAutocomplete.MODE_OVERLAY)
+                            .build(getActivity());
+            startActivityForResult(intent, PLACE_AUTOCOMPLETE_REQUEST_CODE);
+        } catch (GooglePlayServicesRepairableException e) {
+            Log.v("PlayServicesRepiar", e.getMessage());
+        } catch (GooglePlayServicesNotAvailableException e) {
+            Log.v("PlayServicesNAva", e.getMessage());
+        }
     }
 
     public View.OnClickListener getOnClick(final FloatingActionMenu fm) {
@@ -112,12 +145,35 @@ public class MapFragment extends Fragment implements
                 } else if (v.getId() == R.id.location_enable) {
                     Toast t = Toast.makeText(getActivity(), getString(R.string.location_msg), Toast.LENGTH_SHORT);
                     t.show();
+                    showLocationDialog("LOCATION");
                     fm.close(true);
                 }
             }
         };
     }
 
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == PLACE_AUTOCOMPLETE_REQUEST_CODE) {
+            if (resultCode == RESULT_OK) {
+                Place place = PlaceAutocomplete.getPlace(getActivity(), data);
+                searchPlace = place.getLatLng();
+                FragmentManager fm = getActivity().getSupportFragmentManager();
+                CreateLocationFragment editNameDialogFragment = CreateLocationFragment.newInstance("LOCATION", false, null);
+                editNameDialogFragment.show(fm, "LOCATION");
+            } else if (resultCode == PlaceAutocomplete.RESULT_ERROR) {
+                Status status = PlaceAutocomplete.getStatus(getActivity(), data);
+            } else if (resultCode == RESULT_CANCELED) {
+                // The user canceled the operation.
+            }
+        }
+    }
+
+    private void showLocationDialog(String title){
+        FragmentManager fm = getActivity().getSupportFragmentManager();
+        CreateLocationFragment editNameDialogFragment =  CreateLocationFragment.newInstance(title, false, null);
+        editNameDialogFragment.show(fm, title);
+    }
     private void showWifiEditDialog(String title) {
         FragmentManager fm = getActivity().getSupportFragmentManager();
         CreateWifiFragment editNameDialogFragment =  CreateWifiFragment.newInstance(title, false, null);

@@ -7,9 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by aharyadi on 2/22/17.
- */
+import com.haryadi.capstone_stage2.R;
+
+import java.util.ArrayList;
 
 public class CreateLocationFragment extends CreateProfileFragment {
 
@@ -28,4 +28,14 @@ public class CreateLocationFragment extends CreateProfileFragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return super.onCreateView(inflater,container,savedInstanceState);
     }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        names = new ArrayList<>();
+        super.onViewCreated(view, savedInstanceState);
+        imageButton.setImageResource(R.drawable.ic_location_on_black_24dp);
+        mWifiName.setVisibility(View.INVISIBLE);
+        locationName.setVisibility(View.VISIBLE);
+    }
+
 }
