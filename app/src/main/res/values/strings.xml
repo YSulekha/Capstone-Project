@@ -41,4 +41,9 @@
     <string name="settings_disconnect">onDisconnect</string>
     <string name="settings_enter">onEnter</string>
     <string name="settings_exit">onExit</string>
+
+    <string name="recycler_empty_text">No Trigger Set</string>
+    <string name="profile_description">Profile image</string>
+
+    <string name="trigger_deleted">Trigger deleted</string>
 </resources>

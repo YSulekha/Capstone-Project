@@ -12,12 +12,37 @@ import android.net.wifi.WifiManager;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
+import com.haryadi.capstone_stage2.data.TriggerContract;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
 
 public class ChangeSettings {
+
+    //Projections for database query
+    public static final String[] TRIGGER_COLUMNS = {
+            TriggerContract.TriggerEntry._ID,
+            TriggerContract.TriggerEntry.COLUMN_TRIGGER_NAME,
+            TriggerContract.TriggerEntry.COLUMN_NAME,
+            TriggerContract.TriggerEntry.COLUMN_TRIGGER_POINT,
+            TriggerContract.TriggerEntry.COLUMN_CONNECT,
+            TriggerContract.TriggerEntry.COLUMN_ISWIFION,
+            TriggerContract.TriggerEntry.COLUMN_ISBLUETOOTHON,
+            TriggerContract.TriggerEntry.COLUMN_MEDIAVOL,
+            TriggerContract.TriggerEntry.COLUMN_RINGVOL
+    };
+
+    public static final int INDEX_TRIGGER_ID = 0;
+    public static final int INDEX_TRIGGER_NAME = 1;
+    public static final int INDEX_NAME = 2;
+    public static final int INDEX_TRIGGER_POINT = 3;
+    public static final int INDEX_CONNECT = 4;
+    public static final int INDEX_ISWIFION = 5;
+    public static final int INDEX_ISBLUETOOTHON = 6;
+    public static final int INDEX_MEDIAVOL = 7;
+    public static final int INDEX_RINGVOL = 8;
 
     //Method to enable/disable Bluetooth setting
     public static void changeBluetoothSetting(Context context, Boolean enable) {
