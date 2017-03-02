@@ -22,6 +22,7 @@ public class TriggerActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         ScreenSlidePagerAdapter mAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mAdapter);
+        mPager.setPageTransformer(true, new ZoomOutPageTransformer());
     }
 
     @Override
