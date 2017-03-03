@@ -4,6 +4,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothManager;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.media.AudioManager;
 import android.net.wifi.WifiConfiguration;
@@ -12,7 +13,10 @@ import android.net.wifi.WifiManager;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
+import com.google.android.gms.location.GeofenceStatusCodes;
+import com.haryadi.capstone_stage2.R;
 import com.haryadi.capstone_stage2.data.TriggerContract;
+import com.haryadi.capstone_stage2.service.GeofenceTrasitionService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,6 +47,8 @@ public class ChangeSettings {
     public static final int INDEX_ISBLUETOOTHON = 6;
     public static final int INDEX_MEDIAVOL = 7;
     public static final int INDEX_RINGVOL = 8;
+
+    public static final String ACTION_DATA_UPDATED = "com.haryadi.trigger.ACTION_DATA_UPDATED";
 
     //Method to enable/disable Bluetooth setting
     public static void changeBluetoothSetting(Context context, Boolean enable) {
@@ -119,6 +125,33 @@ public class ChangeSettings {
             SharedPreferences.Editor edit = prefs.edit();
           //  edit.putString(GeofenceTrasitionService.SHARED_LAST_WIFI, name);
             edit.commit();
+        }
+    }
+
+    public static void writeToSharedPref(Context context, long id) {
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+        SharedPreferences.Editor edit = prefs.edit();
+        edit.putLong(GeofenceTrasitionService.SHARED_LAST_TRIGGER, id);
+        edit.commit();
+    }
+
+    //Method to notify widgets
+    public static void notifyWidgets(Context mContext) {
+        Intent intent = new Intent(ACTION_DATA_UPDATED);
+        mContext.sendBroadcast(intent);
+    }
+
+    //Get the error string for Geofence
+    public static String getErrorString(Context mContext, int errorCode) {
+        switch (errorCode) {
+            case GeofenceStatusCodes.GEOFENCE_NOT_AVAILABLE:
+                return mContext.getString(R.string.geofence_not_available);
+            case GeofenceStatusCodes.GEOFENCE_TOO_MANY_GEOFENCES:
+                return mContext.getString(R.string.geofence_many_geofences);
+            case GeofenceStatusCodes.GEOFENCE_TOO_MANY_PENDING_INTENTS:
+                return mContext.getString(R.string.geofence_many_intents);
+            default:
+                return mContext.getString(R.string.geofence_unknown_errors);
         }
     }
 }
